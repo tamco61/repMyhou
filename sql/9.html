@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Works log</h1>
+<div>
+    <a href="/addjob" class="btn btn-secondary">Add a job</a>
+</div>
+<br>
+{% for item in jobs%}
+    <table width="100%" border="1" cellspacing="0" cellpadding="4">
+        <caption> Action {{item.id}}</caption>
+  <tr class="table-secondary">
+    <th>Title of activity</th>
+      <th>timlid</th>
+      <th>Duration</th>
+      <th>List of colaborations</th>
+      <th>Is finished</th>
+  </tr>
+        <tr class="table-success">
+    <td>{{item.job}}</td>
+      <td>{{item.team_leader}}</td>
+      <td>{{item.work_size}}</td>
+      <td>{{item.collaborators}}</td>
+      <td>{{item.is_finished}}</td>
+          {% if current_user.is_authenticated and (current_user == item.user or current_user.id == 1) %}
+    <div>
+        <a href="/jobs/{{ item.id }}" class="btn btn-warning">Edit job</a>
+        <a href="/jobs_delete/{{ item.id }}" class="btn btn-danger">Delete job</a>
+    </div>
+{% endif %}
+  </tr>
+</table>
+{% endfor %}
+{% endblock %}
