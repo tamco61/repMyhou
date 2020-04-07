@@ -1,0 +1,378 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "ResponseMetaData": {
+      "SearchResponse": {
+        "found": 6,
+        "display": "multiple",
+        "boundedBy": [
+          [
+            56.06181025,
+            54.76132725
+          ],
+          [
+            56.08125575,
+            54.77254543
+          ]
+        ]
+      },
+      "SearchRequest": {
+        "request": "максима рыльского 12/1",
+        "skip": 0,
+        "results": 10,
+        "boundedBy": [
+          [
+            37.048427,
+            55.43644866
+          ],
+          [
+            38.175903,
+            56.04690174
+          ]
+        ]
+      }
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.068812,
+          54.768981
+        ]
+      },
+      "properties": {
+        "name": "Ритм",
+        "description": "ул. Максима Рыльского, 12, Уфа, Россия",
+        "boundedBy": [
+          [
+            56.064707,
+            54.76660743
+          ],
+          [
+            56.072917,
+            54.77135443
+          ]
+        ],
+        "CompanyMetaData": {
+          "id": "1100733043",
+          "name": "Ритм",
+          "address": "Россия, Республика Башкортостан, Уфа, улица Максима Рыльского, 12",
+          "Categories": [
+            {
+              "class": "fitness",
+              "name": "Спортивный комплекс"
+            }
+          ],
+          "Hours": {
+            "text": "Нет информации"
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.068884,
+          54.769013
+        ]
+      },
+      "properties": {
+        "name": "Абсолют",
+        "description": "ул. Максима Рыльского, 12, Уфа, Россия",
+        "boundedBy": [
+          [
+            56.064779,
+            54.76663943
+          ],
+          [
+            56.072989,
+            54.77138643
+          ]
+        ],
+        "CompanyMetaData": {
+          "id": "1154547434",
+          "name": "Абсолют",
+          "address": "Россия, Республика Башкортостан, Уфа, улица Максима Рыльского, 12",
+          "url": "http://www.ohranarb.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "8 (800) 550-70-02"
+            },
+            {
+              "type": "phone",
+              "formatted": "+7 (987) 479-10-00"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "fallback services",
+              "name": "Системы безопасности и охраны"
+            },
+            {
+              "class": "fallback services",
+              "name": "Охранное предприятие"
+            },
+            {
+              "class": "fallback services",
+              "name": "Противопожарные системы"
+            }
+          ],
+          "Hours": {
+            "text": "пн-пт 9:00–18:00, перерыв 13:00–14:00",
+            "Availabilities": [
+              {
+                "Intervals": [
+                  {
+                    "from": "09:00:00",
+                    "to": "13:00:00"
+                  },
+                  {
+                    "from": "14:00:00",
+                    "to": "18:00:00"
+                  }
+                ],
+                "Monday": True,
+                "Tuesday": True,
+                "Wednesday": True,
+                "Thursday": True,
+                "Friday": True
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.068768,
+          54.768914
+        ]
+      },
+      "properties": {
+        "name": "Центр Wellness",
+        "description": "ул. Максима Рыльского, 12, Уфа, Россия",
+        "boundedBy": [
+          [
+            56.0646625,
+            54.76654043
+          ],
+          [
+            56.0728735,
+            54.77128743
+          ]
+        ],
+        "CompanyMetaData": {
+          "id": "1205417851",
+          "name": "Центр Wellness",
+          "address": "Россия, Республика Башкортостан, Уфа, улица Максима Рыльского, 12",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "+7 (347) 236-78-78"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "medicine",
+              "name": "Оздоровительный центр"
+            },
+            {
+              "class": "spa",
+              "name": "Косметология"
+            },
+            {
+              "class": "fitness",
+              "name": "Спортивный, тренажёрный зал"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, 9:00–22:00",
+            "Availabilities": [
+              {
+                "Intervals": [
+                  {
+                    "from": "09:00:00",
+                    "to": "22:00:00"
+                  }
+                ],
+                "Everyday": True
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.068796,
+          54.769024
+        ]
+      },
+      "properties": {
+        "name": "Фармленд",
+        "description": "ул. Максима Рыльского, 12, Уфа, Россия",
+        "boundedBy": [
+          [
+            56.0646905,
+            54.76665043
+          ],
+          [
+            56.0729015,
+            54.77139743
+          ]
+        ],
+        "CompanyMetaData": {
+          "id": "118230310543",
+          "name": "Фармленд",
+          "address": "Россия, Республика Башкортостан, Уфа, улица Максима Рыльского, 12",
+          "url": "https://farmlend.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "8 (800) 550-03-93"
+            },
+            {
+              "type": "phone",
+              "formatted": "+7 (347) 260-03-93"
+            },
+            {
+              "type": "phone",
+              "formatted": "+7 (347) 286-51-40"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "drugstores",
+              "name": "Аптека"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, 8:00–22:00",
+            "Availabilities": [
+              {
+                "Intervals": [
+                  {
+                    "from": "08:00:00",
+                    "to": "22:00:00"
+                  }
+                ],
+                "Everyday": True
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.074349,
+          54.764849
+        ]
+      },
+      "properties": {
+        "name": "Автостоянка Восход-плюс на улице Максима Рыльского, 26 к1",
+        "description": "ул. Максима Рыльского, 26, корп. 1, Уфа, Россия",
+        "boundedBy": [
+          [
+            56.0702435,
+            54.76247543
+          ],
+          [
+            56.0784545,
+            54.76722243
+          ]
+        ],
+        "CompanyMetaData": {
+          "id": "25304066488",
+          "name": "Автостоянка Восход-плюс на улице Максима Рыльского, 26 к1",
+          "address": "Россия, Республика Башкортостан, Уфа, улица Максима Рыльского, 26, корп. 1",
+          "Categories": [
+            {
+              "class": "auto",
+              "name": "Автомойка"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.068717,
+          54.769014
+        ]
+      },
+      "properties": {
+        "name": "Центр жалюзи, Склад",
+        "description": "ул. Максима Рыльского, 12, Уфа, Россия",
+        "boundedBy": [
+          [
+            56.0646115,
+            54.76664043
+          ],
+          [
+            56.0728225,
+            54.77138743
+          ]
+        ],
+        "CompanyMetaData": {
+          "id": "171123236493",
+          "name": "Центр жалюзи, Склад",
+          "address": "Россия, Республика Башкортостан, Уфа, улица Максима Рыльского, 12",
+          "url": "http://центржалюзи02.рф/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "+7 (917) 040-82-54"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "malls",
+              "name": "Жалюзи и рулонные шторы"
+            },
+            {
+              "class": "malls",
+              "name": "Шторы, карнизы"
+            },
+            {
+              "class": "hypermarket",
+              "name": "Окна"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, 9:00–21:00",
+            "Availabilities": [
+              {
+                "Intervals": [
+                  {
+                    "from": "09:00:00",
+                    "to": "21:00:00"
+                  }
+                ],
+                "Everyday": True
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
